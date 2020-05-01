@@ -3,8 +3,6 @@ import scipy
 from scipy import stats
 import numpy as np
 from collections import defaultdict
-import matplotlib.pyplot as plt
-
 
 
 def update_c(C,hist):
@@ -30,7 +28,7 @@ def update_c(C,hist):
 
     return C,groups
 
-
+# Calculates K Means clustering
 def K_histogram(hist):
 
     alpha=0.001
@@ -66,9 +64,7 @@ def K_histogram(hist):
             C=np.array(sorted(new_C))
     return C
 
-
-
-
+# The main controlling function
 def caart(img):
 
     kernel=np.ones((2,2), np.uint8)
@@ -112,6 +108,6 @@ def caart(img):
     #output=output-Laplacian
     return output
 
-output=caart(cv2.imread("s_nikki.jpeg"))
-cv2.imwrite("cartoon_Snikki.jpg", output)
-#print(hists)
+#output=caart(cv2.imread("original.jpg"))
+#cv2.imwrite("cartoon.jpg", output)
+
