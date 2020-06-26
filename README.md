@@ -3,7 +3,7 @@
 [![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)](https://www.python.org/downloads/release/python-360/) 
 # Cartoonify_reality
 
-Even the basics of image pocessing if done properly can be handy which otherwise would require a machine learning model.This project is one of such inspiration which cartoonizes images and videos using only core opencv filters and functions.It also uses K-means clustering algorithm to compress the image. This clustering gives it the basic cartoonish tinge it requires.
+Even the basics of image processing if done properly can be handy which otherwise would require a machine learning model.This project is one of such inspiration which **cartoonizes** images and videos using only core **opencv filters** and functions.It also uses K-means clustering algorithm to compress the image. This clustering gives it the basic cartoonish tinge it requires.
 
 **Algorithm**- K_Means Clustering
 
@@ -47,6 +47,10 @@ $cartoonize.py
 ## Acknowledgments
 
 * Hat tip to anyone whose code was used
+
+## Documentation
+
+The entire documentation and explanation of code as well as concepts can be found in this article: https://iot4beginners.com/cartoonize-reality-with-opencv-and-raspberry-pi/
 
 
 
